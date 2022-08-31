@@ -36,7 +36,7 @@ def main():
     df_train = df_train.sort_index().reset_index()
 
     print("Saving data!")
-    df.to_csv(config.TRANSFORMED_DATA)
+    df_train.to_csv(config.TRANSFORMED_DATA)
 
 
 if __name__ == "__main__":
